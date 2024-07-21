@@ -27,10 +27,7 @@ const Home = () => {
                   <span className="highlight">memories</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Itaque explicabo consectetur ab eligendi nihil vel laborum,
-                  accusamus atque, alias iusto saepe ex labore enim!
-                  Voluptatibus adipisci saepe aliquam nostrum minima.
+                Traveling weaves unforgettable memories, blending adventure, discovery, and wonder. Each journey etches indelible marks on our souls, transforming experiences into a treasure trove of cherished stories and lifelong memories.
                 </p>
               </div>
             </Col>
