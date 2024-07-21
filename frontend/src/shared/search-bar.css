@@ -29,3 +29,12 @@
 .form__group-fast{
     border-right: 2px solid #ddd;
 }
+
+.search__icon i{
+    font-style: 1.6rem;
+    padding: 0.5em;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border-radius: 10px 5px 10px 5px;
+    cursor: pointer;
+}

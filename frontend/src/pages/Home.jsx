@@ -54,6 +54,16 @@ const Home = () => {
         </Container>
       </section>
       {/*Hero section end*/}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='3'>
+            <h5 className="services__subtitle">What we serve</h5>
+            <h2 className="services__title">We offer our best services</h2>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </>
   );
 };
