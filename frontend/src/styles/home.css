@@ -37,3 +37,20 @@
 .hero__img-box {
     padding-top: 2rem;
 }
+
+.services__subtitle {
+    font-style: 2.2em;
+    font-weight: 500;
+    color: #ee6e6e;
+    font-family: var(--subtitle-font-name);
+}
+
+.services__title {
+    font-style: 2.5rem;
+    font-weight: 500;
+}
+
+.featured__tour-title {
+    font-style: 2.3rem;
+    font-weight: 500;
+}

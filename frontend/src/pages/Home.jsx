@@ -8,6 +8,8 @@ import worldImg from "../assets/images/world.png";
 import Subtitle from "./../shared/subtitle";
 
 import SearchBar from "../shared/SearchBar";
+import ServiceList from "../services/ServiceList";
+import FeaturedTourList from "../components/Featured_tours/FeaturedTourList";
 
 const Home = () => {
   return (
@@ -27,7 +29,10 @@ const Home = () => {
                   <span className="highlight">memories</span>
                 </h1>
                 <p>
-                Traveling weaves unforgettable memories, blending adventure, discovery, and wonder. Each journey etches indelible marks on our souls, transforming experiences into a treasure trove of cherished stories and lifelong memories.
+                  Traveling weaves unforgettable memories, blending adventure,
+                  discovery, and wonder. Each journey etches indelible marks on
+                  our souls, transforming experiences into a treasure trove of
+                  cherished stories and lifelong memories.
                 </p>
               </div>
             </Col>
@@ -46,21 +51,41 @@ const Home = () => {
                 <img src={heroImg02} alt="" />
               </div>
             </Col>
-            <SearchBar/>
+            <SearchBar />
           </Row>
         </Container>
       </section>
       {/*Hero section end*/}
+
+
+      {/*Services section start*/}
       <section>
         <Container>
           <Row>
-            <Col lg='3'>
-            <h5 className="services__subtitle">What we serve</h5>
-            <h2 className="services__title">We offer our best services</h2>
+            <Col lg="3">
+              <h5 className="services__subtitle">What we serve</h5>
+              <h2 className="services__title">We offer our best services</h2>
             </Col>
+            <ServiceList />
           </Row>
         </Container>
       </section>
+      {/*Services section end*/}
+
+
+      {/* Featured tour section start */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12' className="mb-5">
+            <Subtitle subtitle={'Explore'}/>
+            <h2 className="featured__tour-title">Our featured tours</h2>
+            </Col>
+          <FeaturedTourList/>
+          </Row>
+        </Container>
+      </section>
+      {/* Featured tour section end */}
     </>
   );
 };
